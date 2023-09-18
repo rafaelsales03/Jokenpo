@@ -1,0 +1,78 @@
+*{
+    font-family: 'Noto Sans Shavian', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(38deg, rgba(0,0,0,1) 12%, rgba(7,2,77,1) 36%, rgba(10,6,80,1) 63%, rgba(1,1,4,1) 87%);
+
+
+}
+
+
+
+section{
+
+
+    background-color: rgba(32, 32, 32, 0.3);
+    border-radius: 40px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+
+button{
+
+    margin: 0 10px;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgba(0, 153, 153, 0.2);
+    transition: opacity 0.3s ease-in-out ;
+
+}
+
+button:hover{
+
+    opacity: 0.7;
+
+}
+
+
+button:active{
+
+    opacity: 0.6;
+
+}
+
+.score-div{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h3, p{
+
+    margin-bottom: 10px;
+
+}
